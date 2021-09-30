@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VirginMedia O2 - iPhone 12</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/fzk2bzs.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<header>
+    <nav>
+          <img id="Logo" src="Images\vmo2-logo-white.svg" alt="Virgin Media O2 Logo">
+  
+        <ul class="nav-links">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Virgin Media O2</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+        <div class="Menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </div>
+    </nav>
+  </header>
+    
+    <body>
+
+      <div class="gradient"><h3>Be part of the UK's greatest upgrade</h3><br>
+      <h3>From Virgin Media O2</h3></div>
+    
+      <section class="PhoneImages">
+<div class="SlideshowContainer" style='grid-area: Images;'>
+    <div class="Slides">
+      <img src="Images\Black phone.png" id="Slide1"  alt="Phone Image 1">
+    </div>
+  
+    <div class="Slides">
+      <img src="Images\black phone 2.png" id="Slide2"alt="Phone Image 2">
+    </div>
+  
+    <div class="Slides">
+        <img src="Images\black phone 3.png" id="Slide3"alt="Phone Image 3">
+    </div>
+      
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  
+    <div class="SmallSlideContainer">
+      <div class="SmallSlideImage">
+        <img class="Transparent" src="Images\Black phone.png" id="SmallSlide1" style="width:100%" onclick="currentSlide(1)" alt="Phone Image 1">
+      </div>
+      <div class="SmallSlideImage" id="Slide2">
+        <img class="Transparent" src="Images\black phone 2.png" id="SmallSlide2" style="width:100%" onclick="currentSlide(2)" alt="Phone Image 2">
+      </div>
+      <div class="SmallSlideImage" id="Slide3">
+        <img class="Transparent" src="Images\black phone 3.png" id="SmallSlide3" style="width:100%" onclick="currentSlide(3)" alt="Phone Image 3">
+      </div> 
+    
+    </div>
+  </div>
+
+
+  <div class="PhoneInfo" style='grid-area: Description;'>
+    <div class="title">
+    <h2>Apple</h2><br>
+    <h2>iPhone 12</h2><br>
+    <h3>With Virgin Media O2</h3>
+  </div>
+
+  <div>
+    <p style="width: 100%">Colour: <strong><span id="Colour">Black</span></strong></p>
+    <div class="circles">
+      <div style="background-color: #121212;" id="BlackButton" onclick='Black();'></div>
+      <div style="background-color: #F6FBFF;"id="WhiteButton" onclick='White();' ></div>
+      <div style="background-color: #64B5F9;" id="BlueButton" onclick='Blue();'></div>
+      <div style="background-color: #BC0202;" id="RedButton" onclick='Red();'></div>
+      <div style="background-color: #8EF964;" id="GreenButton" onclick='Green();'></div>
+    </div></div>
+
+    <div>
+    <p>Storage:<strong><span id="StorageValue"> 64 GB</span></strong></p>
+
+    <div class="Storage">
+      <div id="Storage1" onclick='Storage1();'><p>64 GB</p></div>
+      <div id="Storage2" onclick='Storage2();'><p>128 GB</p></div>
+      <div id="Storage3" onclick='Storage3();'><p>256 GB</p></div>
+  
+    </div>
+  </div>
+  </div>
+
+    </section>
+
+
+    <section>
+      <h1>Choose Your Plan</h1>
+      <hr>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi itaque voluptate architecto rem accusamus amet debitis aperiam iste magni, deserunt maiores veritatis, vel animi odio illo quis, dignissimos ad dicta!</p>
+    
+    
+    <div class="PlansContainer">
+    <div class="Plan" id="Plan1" onclick='Plan1();'>
+
+      <h2 class="PlanTitle">Best Value Plan</h2>
+      <p>Unlimited Minutes</p>
+      <p>Unlimited Texts</p>
+      <p>Unlimited Data</p>
+      <h2 style="width: 100%; text-align: center;">£0 upfront cost, £42 monthly cost</h2>
+    </div>
+    
+    
+    <div class="Plan" id="Plan2" onclick='Plan2();'>
+
+      <h2 class="PlanTitle">Best Value Plan</h2>
+      <p>Unlimited Minutes</p>
+      <p>Unlimited Texts</p>
+      <p>Unlimited Data</p>
+      <h2 style="width: 100%; text-align: center;">£20 upfront cost, £38 monthly cost</h2>
+    </div>
+
+    <div class="Plan" id="Plan3" onclick='Plan3();'>
+
+      <h2 class="PlanTitle">Best Value Plan</h2>
+      <p>Unlimited Minutes</p>
+      <p>Unlimited Texts</p>
+      <p>Unlimited Data</p>
+      <h2 style="width: 100%; text-align: center;">£30 upfront cost, £35 monthly cost</h2>
+    </div>
+
+    <div class="Plan" id="Plan4" onclick='Plan4();'>
+
+      <h2 class="PlanTitle">Best Value Plan</h2>
+      <p>Unlimited Minutes</p>
+      <p>Unlimited Texts</p>
+      <p>Unlimited Data</p>
+      <h2 style="width: 100%; text-align: center;">£40 upfront cost, £30 monthly cost</h2>
+    </div>
+    
+
+  </div>
+
+  <p>Add your selected plan to the basket: <br>
+  <strong><span id="SelectedPlan"></span></strong></p>
+  <h3>*Add your bonus offer in checkout*</h3>
+
+  <button><h2>Add to Basket</h2></button>
+    </section>
+
+
+    <section>
+<h1>Why join Virgin Media O2?</h1>
+<hr>
+      <div class="Tabs">
+        <div onclick='Benefits();' id="BenefitButton"><h1>Virgin Media O2 Benefits</h1></div>
+        <div onclick='Offers();' id="OffersButton"><h1>Additional Offers</h1></div>
+      </div>
+
+</section>
+      <div id="BenefitsReveal">
+        <div class="Benefits">
+          <div>
+ <h2>The UK's best coverage</h2>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut cumque porro voluptate eos doloremque magni expedita laborum ad laudantium, eveniet voluptatum accusamus velit neque, explicabo debitis quaerat. Nesciunt, veritatis nostrum?</p>
+</div>
+<img src="Images\consumer-business-case-study-img-3.jpg" alt="Virgin Media O2 Coverage">
+
+<div>
+     <h2>Make Connections</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro explicabo modi nihil sint eos voluptates distinctio voluptate nostrum eum laborum non repellendus vitae nulla facere, obcaecati et vero? Officiis?</p>
+</div>
+<img src="Images\consumer-business-case-study-img-1.jpg" alt="Virgin Media O2 Connection">
+
+</div></div>
+
+      <div id="OffersReveal">
+        <div class="Offers">
+
+<div><h2>Apple Music</h2>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum provident, modi inventore error sit veritatis! Accusamus, cumque veniam similique necessitatibus sint mollitia illo. Ipsam quos aliquid cupiditate, aspernatur odio id.</p>
+</div>
+<img src="Images\apple-music-os3-110321.jpg" alt="Apple Music Offer">
+
+<div>
+<h2>Disney+</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aspernatur dolor perspiciatis nam facere, ducimus temporibus delectus magnam minima esse corporis officia consequatur assumenda quae, modi, numquam rem error nisi.</p>
+</div>
+<img src="Images\2021-disney-plus-1020821.jpg" alt="Disney Plus Offer">
+
+</div>
+      </div>
+    </section>
+  
+
+    <section>
+      <div class="Features">
+        <h1 style="padding: 0; margin: 0">Features</h1>
+        <button id="RevealFeatures"><h1>+</h1></button>
+      <hr>
+  </div>
+
+      <div id="PhoneFeatures">
+        <div class="FeaturesContainer">
+        <img src="Images\iphone12-lineup-wide.jpg" alt="IPhone 12 Stack Image">
+     
+      <div>
+      <h2>Say Hello to 5G, Supercharged with Virgin Media O2</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Placeat, nisi ipsa alias exercitationem accusamus minus officia qui aperiam quas minima quibusdam cum illum pariatur. Non sint omnis qui at cumque.</p></div>
+      </div></div>
+    </section>
+
+    <section>
+      <h1>FAQ'S</h1>
+      <hr>
+    <div id="FAQ1" class="FAQ"><h2>Do I get access to 5G data?</h2></div>
+    <div id="Answer1" class="Answer"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+      Placeat, nisi ipsa alias exercitationem accusamus minus officia qui aperiam quas minima quibusdam cum illum pariatur. Non sint omnis qui at cumque.</p>
+    </div>
+    
+    <div id="FAQ2" class="FAQ"><h2>What happens if I exceed my data limit?</h2></div>
+    <div id="Answer2" class="Answer"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+      Placeat, nisi ipsa alias exercitationem accusamus minus officia qui aperiam quas minima quibusdam cum illum pariatur. Non sint omnis qui at cumque.</p>
+    </div>
+    
+    <div id="FAQ3" class="FAQ"><h2>How much coverage do I get?</h2></div>
+    <div id="Answer3" class="Answer"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+      Placeat, nisi ipsa alias exercitationem accusamus minus officia qui aperiam quas minima quibusdam cum illum pariatur. Non sint omnis qui at cumque.</p>
+    </div>
+    
+  </section>
+
+
+    <footer></footer>
+    <script async src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"></script>
+    <div id="snipcart" data-config-modal-style="side" data-api-key="ZWE3MzQwNDctOTY4MS00ZWYyLWEzZWMtMjU2OTgwZmYwNTk3NjM3NDgzODAwNzk5Mzk4Nzkx" hidden></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="app.js"></script>
+</body>
+</html>
